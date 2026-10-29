@@ -1,92 +1,171 @@
-﻿:*:;sum::∑
-:*:;approx::≈
-:*:;infinity::∞
-:*:;degree::°
-:*:;therefore::∴
-:*:;because::∵
-:*:;parallel::∥
-:*:;perpendicular::⊥
-:*:;pom::±
-:*:;alpha::α
-:*:;Alpha::Α
 
-:*:;beta::β
-:*:;Beta::Β
 
-:*:;gamma::γ
-:*:;Gamma::Γ
+:*?:;sum::∑
+:*?:;approx::≈
+:*?:;infinity::∞
+:*?:;degree::°
+:*?:;therefore::∴
+:*?:;because::∵
+:*?:;parallel::∥
+:*?:;perpendicular::⊥
+:*?:;pom::±
+:*?:;corr::∝
+:*?:;triple::≡ ; triple bond for chemistry
+:*?:;belong::∈
+:*?:;notbelong::∉
+:*?:;natural::ℕ
+:*?:;integer::ℤ
+:*?:;rational::ℚ
+:*?:;real::ℝ
+:*?:;complex::ℂ
 
-:*:;delta::δ
-:*:;Delta::Δ
+:*?:;alpha::α
+:*?:;Alpha::Α
 
-:*:;epsilon::ε
-:*:;Epsilon::Ε
+; Superscript numbers (2 removed)
+:*?:;^0::⁰
+:*?:;^1::¹
+:*?:;^2::²
+:*?:;^3::³
+:*?:;^4::⁴
+:*?:;^5::⁵
+:*?:;^6::⁶
+:*?:;^7::⁷
+:*?:;^8::⁸
+:*?:;^9::⁹
 
-:*:;zeta::ζ
-:*:;Zeta::Ζ
+; Subscript numbers (2 removed)
+:*?:;_0::₀
+:*?:;_1::₁
+:*?:;_2::₂ 
+:*?:;_3::₃
+:*?:;_4::₄
+:*?:;_5::₅
+:*?:;_6::₆
+:*?:;_7::₇
+:*?:;_8::₈
+:*?:;_9::₉
 
-:*:;eta::η
-:*:;Eta::Η
+:*?:;^+::⁺
+:*?:;^-::⁻
+:*?:;^=::⁼
+:*?:;^(::⁽
+:*?:;^)::⁾
+:*?:;*::×
 
-:*:;theta::θ
-:*:;Theta::Θ
+:*?:;beta::β
+:*?:;Beta::Β
 
-:*:;iota::ι
-:*:;Iota::Ι
+:*?:;gamma::γ
+:*?:;Gamma::Γ
 
-:*:;kappa::κ
-:*:;Kappa::Κ
+:*?:;delta::δ
+:*?:;Delta::Δ
 
-:*:;lambda::λ
-:*:;Lambda::Λ
+:*?:;epsilon::ε
+:*?:;Epsilon::Ε
 
-:*:;mu::μ
-:*:;Mu::Μ
+:*?:;zeta::ζ
+:*?:;Zeta::Ζ
 
-:*:;nu::ν
-:*:;Nu::Ν
+:*?:;eta::η
+:*?:;Eta::Η
 
-:*:;xi::ξ
-:*:;Xi::Ξ
+:*?:;theta::θ
+:*?:;Theta::Θ
 
-:*:;omicron::ο
-:*:;Omicron::Ο
+:*?:;iota::ι
+:*?:;Iota::Ι
 
-:*:;pi::π
-:*:;Pi::Π
+:*?:;kappa::κ
+:*?:;Kappa::Κ
 
-:*:;rho::ρ
-:*:;Rho::Ρ
+:*?:;lambda::λ
+:*?:;Lambda::Λ
 
-:*:;sigma::σ
-:*:;Sigma::Σ
-:*:;fsigma::ς
+:*?:;mu::μ
+:*?:;Mu::Μ
 
-:*:;tau::τ
-:*:;Tau::Τ
+:*?:;nu::ν
+:*?:;Nu::Ν
 
-:*:;upsilon::υ
-:*:;Upsilon::Υ
+:*?:;xi::ξ
+:*?:;Xi::Ξ
 
-:*:;phi::φ
-:*:;Phi::Φ
+:*?:;omicron::ο
+:*?:;Omicron::Ο
 
-:*:;chi::χ
-:*:;Chi::Χ
+:*?:;pi::π
+:*?:;Pi::Π
 
-:*:;psi::ψ
-:*:;Psi::Ψ
+:*?:;rho::ρ
+:*?:;Rho::Ρ
 
-:*:;omega::ω
-:*:;Omega::Ω
+:*?:;sigma::σ
+:*?:;Sigma::Σ
+:*?:;fsigma::ς
 
-;This is for opening IBDP Data Booklets, in order it is Chemistry, Physics, and Math AAHL. You need to download them locally and copy path
+:*?:;tau::τ
+:*?:;Tau::Τ
 
+:*?:;upsilon::υ
+:*?:;Upsilon::Υ
+
+:*?:;phi::φ
+:*?:;Phi::Φ
+
+:*?:;chi::χ
+:*?:;Chi::Χ
+
+:*?:;psi::ψ
+:*?:;Psi::Ψ
+
+:*?:;omega::ω
+:*?:;Omega::Ω
+
+:*?:;check::✓
+:*?:;nequal::≠
+:*?:>=::≥
+:*?:<=::≤
+:*?:;sqrt::√
+
+:*?:;bc::because
+
+; --- PHYSICAL HOTKEYS ---
+
+; Ctrl + Minus sends superscript minus directly
+^-::
+Send, ⁻
+return
+
+; Ctrl + Equals sends superscript plus directly
+^=::
+Send, ⁺
+return
+
+; Hotkeys to open IB DP study booklets
 ^!c::
-Run, 
+Run, ""
+return
 
 ^!p::
-Run, 
+Run, ""
+return
 
 ^!m::
+Run, ""
+return
+
+; Utility hotkeys
+^!n::
 Run, 
+return
+
+^!b::
+Run, ms-settings:connecteddevices
+return
+
+F12::
+Run, calc.exe
+return
+
